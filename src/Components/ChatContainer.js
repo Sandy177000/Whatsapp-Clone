@@ -28,8 +28,8 @@ function ChatContainer({currentUser}) {
       .doc(emailID)
       .onSnapshot((snapshot)=>{
           setChatUser(snapshot.data())
-      })
-    }
+      });
+    };
 
     const getMessages = async()=>{
       const data = await db
@@ -150,4 +150,4 @@ function ChatContainer({currentUser}) {
   )
 }
 
-export default ChatContainer
+export default ChatContainer;

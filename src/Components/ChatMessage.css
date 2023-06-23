@@ -24,3 +24,8 @@
     font-weight: normal;
     align-self: flex-end;
 }
+
+.emoji-picker-react{
+    position: absolute !important;
+    top: -325px
+}

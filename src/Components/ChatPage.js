@@ -14,4 +14,4 @@ function ChatPage({currentUser, signOut}) {
   )
 }
 
-export default ChatPage
+export default ChatPage;
