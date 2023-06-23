@@ -1,0 +1,35 @@
+.user-profile{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-bottom:  1px solid lightgray;
+    cursor:pointer;
+}
+.user-profile:hover{
+    background-color: rgb(213, 213, 213);
+}
+
+.user-image{
+    width: 44px;
+}
+
+.user-image > img{
+    width:100%;
+    border-radius:100%;
+}
+
+.user-info{
+    margin-left: 8px;
+
+}
+
+.user-name{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.user-lastmessage{
+    font-size: 13px;
+    margin-top: 2px;
+    color:gray;
+}
